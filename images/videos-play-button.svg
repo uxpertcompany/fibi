@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="67" height="67" viewBox="0 0 67 67">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #000;
+      }
+
+      .cls-1, .cls-2 {
+        opacity: 0.5;
+      }
+
+      .cls-2 {
+        fill: #a8a7a7;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        stroke: #fff;
+        stroke-width: 3px;
+        filter: url(#gradient-overlay-1);
+        fill: none;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+    </style>
+
+    <filter id="gradient-overlay-1" filterUnits="userSpaceOnUse">
+      <feImage x="5.875" y="6" width="54.7813" height="54.875" preserveAspectRatio="none" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNTQuNzgxMyIgaGVpZ2h0PSI1NC44NzUiPjxsaW5lYXJHcmFkaWVudCBpZD0iZ3JhZCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIyMC4wNTIiIHkxPSIwLjA0NyIgeDI9IjM0LjczIiB5Mj0iNTQuODI5Ij4KICA8c3RvcCBvZmZzZXQ9IjAuNDUiIHN0b3AtY29sb3I9IiNlOGIxMTYiLz4KICA8c3RvcCBvZmZzZXQ9IjAuNDc2IiBzdG9wLWNvbG9yPSIjZmZjMTBlIi8+CiAgPHN0b3Agb2Zmc2V0PSIwLjQ4NyIgc3RvcC1jb2xvcj0iI2ZmYzEwZSIvPgogIDxzdG9wIG9mZnNldD0iMC41NSIgc3RvcC1jb2xvcj0iI2ZmYzEwZSIvPgo8L2xpbmVhckdyYWRpZW50Pgo8cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIi8+PC9zdmc+"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+      <feBlend in2="SourceGraphic" result="gradientFill"/>
+    </filter>
+  </defs>
+  <g>
+    <circle cx="33.5" cy="33.5" r="33.5" class="cls-1"/>
+    <path d="M22.862,8.374 C36.695,2.229 52.885,8.472 59.025,22.319 C65.164,36.166 58.927,52.372 45.094,58.518 C31.261,64.663 15.071,58.420 8.932,44.573 C2.792,30.726 9.029,14.520 22.862,8.374 Z" class="cls-2"/>
+    <g style="fill: none; filter: url(#gradient-overlay-1)">
+      <path d="M23.650,9.874 C37.483,3.729 53.674,9.972 59.813,23.819 C65.952,37.666 59.715,53.872 45.882,60.018 C32.050,66.163 15.859,59.920 9.720,46.073 C3.581,32.226 9.818,16.020 23.650,9.874 Z" id="path-1" style="stroke: inherit; filter: none; fill: inherit" class="cls-3"/>
+    </g>
+    <use xlink:href="#path-1" style="stroke: #fff; filter: none; fill: none"/>
+    <path d="M29.726,39.951 L41.196,32.068 L29.665,24.778 L29.726,39.951 Z" class="cls-4"/>
+  </g>
+</svg>
